@@ -5,7 +5,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Talking Heads can create a Whiteboard Video, Animation, Explainer Video, Video Scribe, Hand Drawing Video, Chalkboard Video.  Here you watch examples of these kinds of videos.  Contact us for more information. Custom Whiteboard Videos, Whiteboard Animation Videos, Whiteboard Sketch Videos, Hand Drawing Videos, Chalkboard Videos, Animated Whiteboard Videos">
+    <meta name="description" content="We concentrate on effective video production for the growing digital age. Our animated explainer videos will deliver your meaning clearly to your current targeted audiences. This custom animation videos, incorporate typography along with animation and professional voice-overs. Your video will will clarify and showcase your message with an effective and fascinating custom video. ">
+    <meta name="Keywords" content="Animated Video,Custom Video,Custom Animated Video,Typography,Animation,Video Production,Whiteboard Animation,Explainer Videos,Blackboard Video,Drawing Animation,Doodle Video,Sketch Video,Chalkboard Video,Custom Animation,Video Presentation,Video,Commercial,Explainer Video,Professional,YouTube,Website Video,Whiteboard Video,Doodle Animation,Web Video">
     <meta name="robots" CONTENT="index, follow">
     <title>Whiteboard Videos|Animation</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
