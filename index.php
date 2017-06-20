@@ -43,7 +43,7 @@
     $table = "whiteboard";
     include("includes/showDemo.php"); 
     ?>
-    <section class="alert alert-info">
+    <section class="alert alert-dark">
        <div class="container">
         <?php include("includes/testimonial-awards.php"); ?>
         </div>
@@ -66,7 +66,7 @@
             <h2 class="call-now-to-get-results"><a href="tel://801-748-2281" title="Give us a call." >801-748-2281</a></h2>
         </div>
     </section>
-    <section class="alert alert-info">
+    <section class="alert alert-dark">
         <div class="container">
             <div class="row best">
                 <h2>Custom Whiteboard Video</h2>

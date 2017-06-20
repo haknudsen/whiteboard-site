@@ -1,3 +1,5 @@
+<script src="https://use.typekit.net/oyn3mlr.js"></script>
+<script>try{Typekit.load({ async: true });}catch(e){}</script>
 <nav role="navigation" class="navbar navbar-default">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
