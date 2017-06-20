@@ -4,6 +4,7 @@
 _notes/
 /bower_components/
 /node_modules/
+/cgi-bin/
 # Numerous always-ignore extensions
 *.diff
 *.err

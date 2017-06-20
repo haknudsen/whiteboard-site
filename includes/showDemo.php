@@ -19,16 +19,16 @@ if ( $result->num_rows > 0 ) {
         echo PHP_EOL;
         echo '<div class="embed-responsive embed-responsive-16by9 box">';
         echo PHP_EOL;
-        echo '<iframe title="'.$table .' example-' . $video . '" class="embed-responsive-item" src="//www.youtube.com/embed/' . $target . '" frameborder="0" allowfullscreen"></iframe>';
+        echo '<iframe class="embed-responsive-item" src="//www.youtube.com/embed/' . $target . '" frameborder="0" allowfullscreen"></iframe>';
         echo PHP_EOL;
         echo '</div>';
         echo PHP_EOL;
-        echo '<h3 class="text-example">' . $video . '</a></h3>';
+        echo '<h3 class="text-center">' . $video . '</a></h3>';
         echo PHP_EOL;
         echo '</div>';
         echo PHP_EOL;
         $x = $x + 1;
-        if ( $x == 7 ) {
+        if ( $x == $show+1 ) {
             break;
         }
     }

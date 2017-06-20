@@ -1,0 +1,10 @@
+DirectoryIndex index.php index.html
+ErrorDocument 404 http://www.whiteboard.video/404error.html
+ErrorDocument 500 http://www.whiteboard.video/500.html
+ErrorDocument 403 http://www.whiteboard.video/403.html
+ErrorDocument 401 http://www.whiteboard.video/401.html
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^whiteboard.video [NC]
+RewriteRule ^(.*)$ http://www.whiteboard.video/$1 [L,R=301]
+AddType application/x-httpd-php56cgi .php
+Action application/x-httpd-php56cgi /cgi-bin/php56.cgi
