@@ -28,7 +28,7 @@ if ( $result->num_rows > 0 ) {
         echo '</div>';
         echo PHP_EOL;
         $x = $x + 1;
-        if ( $x == 7 ) {
+        if ( $x == $show+1 ) {
             break;
         }
     }

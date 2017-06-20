@@ -15,12 +15,6 @@
     <link rel="stylesheet" type="text/css" href="lightbox/js/lightbox/themes/default/jquery.lightbox.css"/>
     <link rel="stylesheet" type="text/css" href="css/style.css"/>
     <link href="css/fluid.css" rel="stylesheet" type="text/css"/>
-    <script src="lightbox/js/lightbox/jquery.lightbox.min.js"></script>
-    <script>
-        jQuery( document ).ready( function ( $ ) {
-            $( '.lightbox' ).lightbox();
-        } );
-    </script>
     <?php include ('includes/googleanalytics.php'); ?>
 </head>
 
@@ -41,11 +35,13 @@
     </section>
     <?php 
     $table = "whiteboard";
+    $show = "9";
     include("includes/showDemo.php"); 
     ?>
-    <section class="alert alert-info">
-       <div class="container">
-        <?php include("includes/testimonial-awards.php"); ?>
+    <h2 class="text-center"><a href="examples.php" title="More Examples">More Examples</a></h2>
+    <section class="alert alert-dark">
+        <div class="container">
+            <?php include("includes/testimonial-awards.php"); ?>
         </div>
     </section>
     <section class="container m-25">
@@ -60,36 +56,63 @@
             </div>
         </div>
     </section>
+    <section class="examples">
+        <h2 class="white">Explanation Videos, Whiteboard Animation Videos, and Spokesperson Video.</h2>
+        <blockquote>We know all companies are not alike, so,we work with you to create the best solution for your company. Your company offers a solution to your clients, but sometimes that solution or product needs some explaining. That's where we come in. We create high impact, exciting VIDEOS that explain your product, service, software or business. </blockquote>
+    </section>
     <section class="container-fluid call-now">
         <div class="">
             <h2 class="call-now-to-get-results">CALL NOW to Get Results!</h2>
             <h2 class="call-now-to-get-results"><a href="tel://801-748-2281" title="Give us a call." >801-748-2281</a></h2>
         </div>
     </section>
-    <section class="alert alert-info">
+    <section class="alert alert-dark">
         <div class="container">
             <div class="row best">
                 <h2>Custom Whiteboard Video</h2>
                 <h3 class="italic text-center">Grab your website's visitors' attention while increasing your revenue. </h3>
-                <div class="col-md-4">
+                    <div class="media">
+                        <div class="media-left">
+                            <div class="embed-responsive embed-responsive-16by9 box">';
+                                <iframe class="embed-responsive-item box" src="//www.youtube.com/embed/LP1eD7uiGqw" frameborder="0" allowfullscreen></iframe>
+                            </div>
 
-                    <p>At Whiteboard.Video we don't just make whiteboard sketch videos. We have spent years studying the art of persuasion and communication. Your story must be told well.</p>
-                    <p>We collaborate and listen to you to create a unique video to get your message across and that will boost your leads and increases sales in your product or service.</p>
-                </div>
-                <div class="col-md-4">
-                    <p> You can get yourself a highly professional whiteboard video from us and link it with all you website and media accounts. A increasing amount of people are visiting websites and using web 2.0 therefore. </p>
+                        </div>
+                        <div class="media-body">
+                            <h4 class="media-heading">More than Just a Video</h4>
+                            <p>At Whiteboard.Video we don't just make whiteboard sketch videos. We have spent years studying the art of persuasion and communication. Your story must be told well.</p>
+                            <p>We collaborate and listen to you to create a unique video to get your message across and that will boost your leads and increases sales in your product or service.</p>
+
+                        </div>
+                    </div>
+                    <div class="media">
+                        <div class="media-body">
+                            <h4 class="media-heading">Professional</h4>
+                            <p> You can get yourself a highly professional whiteboard video from us and link it with all you website and media accounts. A increasing amount of people are visiting websites and using web 2.0 therefore. </p>
                     <p>The internet has developed into highly valuable platform to find millions who may take an active interest in your product or service.</p>
-                </div>
-                <div class="col-md-4">
-                    <p>Our prices could be the most affordable and you will have many reasons to understand others why Whiteboard.Video is the most distinctive and distinguished company in the industry.</p>
+                        </div>
+                        <div class="media-right">
+                            <div class="embed-responsive embed-responsive-16by9 box">';
+                                <iframe class="embed-responsive-item box" src="//www.youtube.com/embed/d6AxjWSLSqk" frameborder="0" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                       <div class="media">
+                        <div class="media-left">
+                            <div class="embed-responsive embed-responsive-16by9 box">';
+                                <iframe class="embed-responsive-item box" src="//www.youtube.com/embed/QJzS_f8gVDo" frameborder="0" allowfullscreen></iframe>
+                            </div>
+
+                        </div>
+                        <div class="media-body">
+                            <h4 class="media-heading">Affordable</h4>
+                            <p>Our prices could be the most affordable and you will have many reasons to understand others why Whiteboard.Video is the most distinctive and distinguished company in the industry.</p>
                     <p><a href="tel:801-748-2281" title="Call Now!">Call us today </a>and let our personnel connect wtih you and provide enough ideas about how to go about preparing a stunning kind involving whiteboard video for ones business.</p>
-                </div>
+
+                        </div>
+                    </div>
+                
             </div>
-        </div>
-    </section>
-    <section class="examples">
-        <div class="banner-bottom-text">Explanation Videos, Whiteboard Animation Videos, and Spokesperson Video.
-            <blockquote class="content-text">We know all companies are not alike, so,we work with you to create the best solution for your company. Your company offers a solution to your clients, but sometimes that solution or product needs some explaining. That's where we come in. We create high impact, exciting VIDEOS that explain your product, service, software or business. </blockquote>
         </div>
     </section>
     <?php include("includes/footer.php"); ?>
