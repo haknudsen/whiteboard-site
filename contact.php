@@ -15,7 +15,6 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
     <link rel="stylesheet" type="text/css" href="css/style.css"/>
     <link href="css/fluid.css" rel="stylesheet" type="text/css"/>
-    <script type="text/javascript" src="lightbox/js/jquery.min.js"></script>
     <?php include ('includes/googleanalytics.php'); ?>
     <!-- InstanceBeginEditable name="head" -->
 <!-- InstanceEndEditable -->
