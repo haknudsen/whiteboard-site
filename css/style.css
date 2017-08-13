@@ -15,7 +15,7 @@ input, textarea, select { outline: none; resize: none }
 .header { height: 160px; width: 100% }
 .navbar-brand { float: left; margin-top: 15px; font-size: 6rem;width: 100%;font-weight: 500 }
 .navbar-brand a { display: block; text-decoration: none;color: #000}
-.header-right { width: 400px; float: right;margin-right: 20px }
+.header-right { width: 60%; float: right;margin-right: 20px }
 .header-nav { text-align: right; font-size: 4rem; color: #424e5f; padding-top: 8px }
 .header-nav a { margin: 0 2px; color: #424e5f }
 .header-phone a{ font-size: 6rem,; color: #000; font-weight: 400; line-height: 1em; text-align: right }
@@ -59,8 +59,8 @@ background-image: -khtml-gradient(linear, left top, left bottom, from(#7F7F7F), 
 color: #fff!important; text-shadow: 0 -1px 0 rgba(0,0,0,0.42); -webkit-font-smoothing: antialiased; }
 .btn-examples:hover {/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#404040+0,a0d1fa+100 */ background: #404040; /* Old browsers */ background: -moz-linear-gradient(top, #404040 0%, #BFBFBF 100%); /* FF3.6+ */ background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #404040), color-stop(100%, #BFBFBF)); /* Chrome,Safari4+ */ background: -webkit-linear-gradient(top, #404040 0%, #BFBFBF 100%); /* Chrome10+,Safari5.1+ */ background: -o-linear-gradient(top, #404040 0%, #BFBFBF 100%); /* Opera 11.10+ */ background: -ms-linear-gradient(top, #404040 0%, #BFBFBF 100%); /* IE10+ */ background: linear-gradient(to bottom, #404040 0%, #BFBFBF 100%); /* W3C */ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#404040', endColorstr='#BFBFBF', GradientType=0 ); /* IE6-9 */;
 color: #000!important; text-shadow: 0 -1px 0 rgba(255,255,255,0.46) }
-.examples { width: 100%; color: white;padding: 50px 0; background: -webkit-linear-gradient(rgba(10,10,10,1)0%, rgba(10,10,10,1) 70%, rgba(0,0,0,0.6) 70%, rgba(0,0,0,0.6) 100%),  -webkit-linear-gradient(left, rgba(10,10,10,1)0%, rgba(10,10,10,1) 70%, rgba(0,0,0,0.6) 70%, rgba(0,0,0,0.6) 100%); background-size: 10px 10px;}
-.examples img { border: 2px solid #404040}
+.examples { width: 100%; color: white;padding: 25px 0; background: -webkit-linear-gradient(rgba(10,10,10,1)0%, rgba(10,10,10,1) 70%, rgba(0,0,0,0.6) 70%, rgba(0,0,0,0.6) 100%),  -webkit-linear-gradient(left, rgba(10,10,10,1)0%, rgba(10,10,10,1) 70%, rgba(0,0,0,0.6) 70%, rgba(0,0,0,0.6) 100%); background-size: 10px 10px;}
+.example-column h3,.examples h3{margin: 0 auto 10px;text-align: center;font-size: 3rem}
 .exampleText { text-align: center; color: #000; margin:0 auto 16px;font-size: 3rem;font-weight: 900}
 .exampleText a { color: #404040; text-decoration: none; }
 .exampleText a:hover{color: black}
