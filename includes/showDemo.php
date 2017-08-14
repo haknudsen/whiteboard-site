@@ -6,7 +6,7 @@ $sql .= " ORDER BY RAND()";
 $result = $conn->query( $sql );
 
 if ( $result->num_rows > 0 ) {
-    echo '<section class="container-fluid m-25">';
+    echo '<section class="container-fluid examples">';
         echo PHP_EOL;
     echo '<h2 class="text-center">Examples</h2>';
         echo PHP_EOL;
