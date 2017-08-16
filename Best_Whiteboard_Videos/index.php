@@ -24,7 +24,7 @@
 <body>
     <?php include("../includes/header.php"); ?>
     <section class="jumbotron">
-    <h1 class="text-center">Top 9 Whiteboard Videos</h1>
+        <h1 class="text-center">Top 9 Whiteboard Videos</h1>
     </section>
     <?php 
     $columns = 3;
@@ -34,10 +34,18 @@
     <section class="container">
         <a href="http://www.websitetalkingheads.com/mrss/whiteboard.rss" target="_blank"><img class="img img-responsive m-25" alt="Talking Heads Animation RSS Feed"  src="http://www.websitetalkingheads.com/mrss/images/Whiteboard RSS Feed.png" title="Talking Heads Whiteboard Video RSS Feed"></a>
     </section>
-    
-    <?php include("includes/callNow.php"); ?>
-    
+<section class="alert alert-info">
+    <?php include("../includes/whiteboard_content.php"); ?>
+</section>
+    <?php include("../includes/callNow.php"); ?>
     <?php include("../includes/footer.php"); ?>
+    <script type="text/javascript" src="../lightbox/js/lightbox/jquery.lightbox.min_v2.js"></script>
+    <!-- // <script type="text/javascript" src="src/jquery.lightbox.js"></script>   -->
+    <script type="text/javascript">
+        jQuery( document ).ready( function ( $ ) {
+            $( '.lightbox' ).lightbox();
+        } );
+    </script>
 </body>
 
 </html>
