@@ -115,27 +115,12 @@
     </section>
     <?php include("includes/callNow.php"); ?>
     <?php include("includes/footer.php"); ?>
+    <script src="js/blog-post.js"></script>
     <script>
         $( window ).load( function () {
             if ( $( document ).width() > 1200 ) {
                 padHeight( ".banner-video", ".pad-this" );
             }
-            $( document ).ready( function () {
-                $.ajax( {
-                    url: "http://seovideoexperts.com/wp-json/wp/v2/posts?per_page=1",
-                    success: function ( result ) {
-                        var excerpt = result[ 0 ].excerpt.rendered;
-                        var linkStart = '[&hellip;]';
-                        var theLink = '<a href="http://seovideoexperts.com/">[&hellip;]</a>';
-                        var excerptLink = excerpt.replace( linkStart, theLink );
-                        $( "#excerpt" ).html( excerptLink );
-                        $( '#title' ).text( result[ 0 ].title.rendered );
-                    },
-                    error: function ( xhr ) {
-                        alert( "An error occured: " + xhr.status + " " + xhr.statusText );
-                    }
-                } );
-            } );
         } );
 
         function padHeight( holder, toPad ) {
