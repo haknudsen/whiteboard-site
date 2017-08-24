@@ -13,9 +13,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
     <link rel="stylesheet" type="text/css" href="../lightbox/js/lightbox/themes/default/jquery.lightbox.css"/>
-    <!--[if IE 6]>
-  <link rel="stylesheet" type="text/css" href="js/lightbox/themes/default/jquery.lightbox.ie6.css" />
-  <![endif]-->
     <link rel="stylesheet" type="text/css" href="../css/style.css"/>
     <link href="../css/fluid.css" rel="stylesheet" type="text/css"/>
     <script src="https://use.fontawesome.com/477bc21f61.js"></script>
@@ -37,7 +34,9 @@
 <section class="alert alert-info">
     <?php include("../includes/whiteboard_content.php"); ?>
 </section>
+    <?php include("../social-media/index.php"); ?>
     <?php include("../includes/callNow.php"); ?>
+    <?php include("../social-media/index.php"); ?>
     <?php include("../includes/footer.php"); ?>
     <script type="text/javascript" src="../lightbox/js/lightbox/jquery.lightbox.min_v2.js"></script>
     <!-- // <script type="text/javascript" src="src/jquery.lightbox.js"></script>   -->

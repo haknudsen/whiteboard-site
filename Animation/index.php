@@ -35,6 +35,8 @@
     </section>
     <?php 
     $table = "animation";
+    $columns = 4;
+    $show = 12;
     include("../includes/showDemo.php"); 
     ?>
     <section class="container">
@@ -65,6 +67,7 @@
             </div>
         </div>
     </section>
+    <?php include("../social-media/index.php"); ?>
     <?php include("../includes/footer.php"); ?>
     <script src="../js/custom.js"></script>
     <script>

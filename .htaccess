@@ -8,3 +8,11 @@ RewriteCond %{HTTP_HOST} ^whiteboard.video [NC]
 RewriteRule ^(.*)$ http://www.whiteboard.video/$1 [L,R=301]
 AddType application/x-httpd-php56cgi .php
 Action application/x-httpd-php56cgi /cgi-bin/php56.cgi
+<IfModule mod_expires.c>
+    ExpiresActive on
+ 
+    ExpiresByType image/jpg "access plus 1 month"
+    ExpiresByType image/jpeg "access plus 1 month"
+    ExpiresByType image/gif "access plus 1 month"
+    ExpiresByType image/png "access plus 1 month"
+</IfModule>

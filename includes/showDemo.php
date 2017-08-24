@@ -4,7 +4,19 @@ if(is_null($table)){$table="whiteboard";}
 $sql = "SELECT * FROM " . $table;
 $sql .= " ORDER BY RAND()";
 $result = $conn->query( $sql );
-
+switch ( $columns ) {
+    case 2:
+        $span = 6;
+        break;
+    case 3:
+        $span = 4;
+        break;
+    case 4:
+        $span = 3;
+        break;
+    default:
+        $span = 4;
+}
 if ( $result->num_rows > 0 ) {
     echo '<section class="container-fluid examples">';
         echo PHP_EOL;
@@ -15,7 +27,7 @@ if ( $result->num_rows > 0 ) {
     while ( $row = $result->fetch_assoc() ) {
         $target = $row[ "target" ];
         $video = $row[ "name" ];
-        echo '<div class="col-sm-4">';
+        echo '<div class="col-sm-' . $span . '">';
         echo PHP_EOL;
         echo '<div class="embed-responsive embed-responsive-16by9 box">';
         echo PHP_EOL;
