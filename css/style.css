@@ -16,7 +16,7 @@ input, textarea, select { outline: none; resize: none }
 .header { height: 160px; width: 100% }
 .navbar-brand { float: left; margin-top: 15px; font-size: 6rem;width: 100%;font-weight: 700 }
 .navbar-brand a { display: block; text-decoration: none;color: #000}
-.header-right { width: 60%; float: right;margin-right: 20px }
+.header-right { width: 58%; float: right;margin-right: 20px }
 .header-nav { text-align: right; font-size: 4rem; color: #424e5f; padding-top: 8px }
 .header-nav a { margin: 0 2px; color: #424e5f }
 .header-phone a{ font-size: 6rem,; color: #000; font-weight: 400; line-height: 1em; text-align: right }
