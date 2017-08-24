@@ -1,4 +1,4 @@
-<h1 class="quote">Get A Quote!</h1>
+<h2 class="quote">Get A Quote!</h2>
 <div class="get-a-quote">
     <?php
     $pageURL = 'http';

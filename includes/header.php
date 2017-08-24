@@ -5,7 +5,7 @@
         <div class="navbar-header">
             <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
             <div class="navbar-brand">
-                <a href="http://www.whiteboard.video/"><span class="text-bold">Whiteboard.Video</span><span class="thin"> by </span><span>Talking Heads&#8482;</span></a>
+                <a href="http://www.whiteboard.video/"><span class="huge">W</span>hiteboard.<span class="huge">V</span>ideo by <span><span class="huge">T</span>alking <span class="huge">H</span>eads&#8482;</span></a>
             </div>
         </div>
         <!-- Collection of nav links and other content for toggling -->

@@ -16,7 +16,7 @@ src="//www.googleadservices.com/pagead/conversion.js">
 </script>
 <noscript>
 <div style="display:inline;">
-<img height="1" width="1" style="border-style:none;" alt="" 
+<img height="1" width="1" style="border-style:none;" alt="Google Tracks Whiteboard Video" 
 src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/1058129782/?value=0&amp;label=-jOyCO6ZkAIQ9o7H-AM&amp;guid=ON&amp;script=0"/>
 </div>
 </noscript>

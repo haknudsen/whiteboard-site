@@ -20,7 +20,7 @@ switch ( $columns ) {
 if ( $result->num_rows > 0 ) {
     echo '<section class="container-fluid examples">';
         echo PHP_EOL;
-    echo '<h2 class="text-center">Examples</h2>';
+    echo '<h3 class="text-center">Examples</h3>';
         echo PHP_EOL;
     echo '<div class="row m-25">';
     $x = 1;
@@ -35,7 +35,7 @@ if ( $result->num_rows > 0 ) {
         echo PHP_EOL;
         echo '</div>';
         echo PHP_EOL;
-        echo '<h3 class="text-center">' . $video . '</a></h3>';
+        echo '<h4 class="text-center">' . $video . '</a></h4>';
         echo PHP_EOL;
         echo '</div>';
         echo PHP_EOL;

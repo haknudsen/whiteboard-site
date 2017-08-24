@@ -12,8 +12,9 @@ img { margin: 0 auto}
 input, textarea, select { outline: none; resize: none }
 .navbar { margin-bottom: 0;border-bottom: 2px solid}
 .thin{font-weight: 300}
+.huge{font-size: 10rem;font-weight: 500}
 .header { height: 160px; width: 100% }
-.navbar-brand { float: left; margin-top: 15px; font-size: 6rem;width: 100%;font-weight: 500 }
+.navbar-brand { float: left; margin-top: 15px; font-size: 6rem;width: 100%;font-weight: 700 }
 .navbar-brand a { display: block; text-decoration: none;color: #000}
 .header-right { width: 60%; float: right;margin-right: 20px }
 .header-nav { text-align: right; font-size: 4rem; color: #424e5f; padding-top: 8px }
@@ -22,6 +23,7 @@ input, textarea, select { outline: none; resize: none }
 .header-phone a:hover{text-decoration: none;color: #7F7F7F}
 .banner { width: 100%; padding: 40px; background: #404040; background: -moz-linear-gradient(top, #404040 0%, #BFBFBF 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #404040), color-stop(100%, #BFBFBF)); background: -webkit-linear-gradient(top, #404040 0%, #BFBFBF 100%); background: -o-linear-gradient(top, #404040 0%, #BFBFBF 100%); background: -ms-linear-gradient(top, #404040 0%, #BFBFBF 100%); background: linear-gradient(to bottom, #404040 0%, #BFBFBF 100%); filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#404040', endColorstr='#BFBFBF', GradientType=0)
 }
+.banner h1{color: white;font-size: 6rem;font-family: "swister",sans-serif;font-style: normal;font-weight: 700;}
 .banner-video { margin: 35px auto 0 }
 .banner-text { font-size: 6rem; color: #fff; line-height: 34px; letter-spacing: -.03em; padding-top: 10px; text-align: center }
 .jumbotron .banner-text{color: #000}

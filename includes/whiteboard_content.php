@@ -12,7 +12,7 @@ if ( $result->num_rows > 0 ) {
         $alt = $row[ "alt" ];
         echo( '<div class="container">' );
         echo PHP_EOL;
-        echo('<h2 class="text-center">' .$title . '</h2>');
+        echo('<h3 class="text-center">' .$title . '</h3>');
         echo PHP_EOL;
         echo( '<div class="text">' );
         echo PHP_EOL;

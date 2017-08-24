@@ -21,12 +21,13 @@
 <body>
     <?php include("includes/header.php"); ?>
     <section class="container-fluid banner">
+       <h1 class="text-center text-capitalize"><span class="huge">W</span>elcome to <span class="huge">W</span>hiteboard.<span class="huge">V</span>ideo</h1>
         <div class="row banner-video">
             <div class="col-lg-8">
                 <div class="embed-responsive embed-responsive-16by9 box">
                     <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/NiCdoZ_7kcA?rel=0&autohide=2&showinfo=0" allowfullscreen></iframe>
                 </div>
-                <div class="banner-text">Cool Explainer Videos, Whiteboard Sketch Videos, Spokesperson too! </div>
+                <h2 class="banner-text">Cool Explainer Videos, Whiteboard Sketch Videos, Spokesperson too! </h2>
             </div>
             <div class="col-lg-4 pad-this">
                 <?php include("forms/contact.php"); ?>
