@@ -114,6 +114,7 @@
         </div>
     </section>
     <?php include("includes/callNow.php"); ?>
+    <?php include("includes/TalkingHeadsAffiliate.php"); ?>
     <?php include("includes/footer.php"); ?>
     <script src="js/blog-post.js"></script>
     <script>

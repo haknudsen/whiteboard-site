@@ -17,7 +17,7 @@
                         </li>
                         <li><a href="#">|</a>
                         </li>
-                        <li><a href="http://www.whiteboard.video/Best_Whiteboard_Videos">Best Whiteboards</a>
+                        <li><a href="http://www.whiteboard.video/Best-Whiteboard-Videos">Best Whiteboards</a>
                         </li>
                         <li><a href="#">|</a>
                         </li>
