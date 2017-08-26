@@ -8,7 +8,7 @@
     <meta name="description" content="We concentrate on effective video production for the growing digital age. Our animated explainer videos will deliver your meaning clearly to your current targeted audiences. This custom animation videos, incorporate typography along with animation and professional voice-overs. Your video will will clarify and showcase your message with an effective and fascinating custom video. ">
     <meta name="Keywords" content="Animated Video,Custom Video,Custom Animated Video,Typography,Animation,Video Production,Whiteboard Animation,Explainer Videos,Blackboard Video,Drawing Animation,Doodle Video,Sketch Video,Chalkboard Video,Custom Animation,Video Presentation,Video,Commercial,Explainer Video,Professional,YouTube,Website Video,Whiteboard Video,Doodle Animation,Web Video">
     <meta name="robots" CONTENT="index, follow">
-    <title>Whiteboard Videos|Animation</title>
+    <title>Best Whiteboard Videos</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
