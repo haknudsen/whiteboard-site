@@ -8,7 +8,7 @@
     <meta name="description" content="Here are the top whiteboard video examples we have for you. These custom whiteboard videos, incorporate typography along with animation and professional voice-overs. Your video will will clarify and showcase your message with an effective and fascinating custom video. ">
     <meta name="Keywords" content="Best Blackboard Video,Best Custom Animation,Best Custom Animated Video,Best Doodle Video,Best Explainer Video,Best Video,Best Sketch Video,Best Custom Video,Best Typography,Best Whiteboard Animation,Best Chalkboard Video,Best Whiteboard Video,Best Explainer Videos,Best Drawing Animation,Best Website Video,Best Whiteboard Videos,Best Animated Video,Best Web Video,Best YouTube,Best Animation,Best Doodle Animation,Best Video Production">
     <meta name="robots" CONTENT="index, follow">
-    <title>Whiteboard Videos|Animation</title>
+    <title>9 Best Whiteboard Videos</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
