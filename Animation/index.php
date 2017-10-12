@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="We concentrate on effective video production for the growing digital age. Our animated explainer videos will deliver your meaning clearly to your current targeted audiences. This custom animation videos, incorporate typography along with animation and professional voice-overs. Your video will will clarify and showcase your message with an effective and fascinating custom video. ">
+    <meta name="description" content="We are experts in effective video production designed for the modern digital age. Our animated videos deliver your message clearly to your current target audiences. Before we start, We consult with you. We find out WHAT you do, HOW you do it, and WHY you do it that way.">
     <meta name="Keywords" content="Animated Video,Custom Video,Custom Animated Video,Typography,Animation,Video Production,Whiteboard Animation,Explainer Videos,Blackboard Video,Drawing Animation,Doodle Video,Sketch Video,Chalkboard Video,Custom Animation,Video Presentation,Video,Commercial,Explainer Video,Professional,YouTube,Website Video,Whiteboard Video,Doodle Animation,Web Video">
     <meta name="robots" CONTENT="index, follow">
     <title>Whiteboard Videos|Animation</title>

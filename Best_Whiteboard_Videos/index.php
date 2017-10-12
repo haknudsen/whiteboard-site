@@ -5,14 +5,17 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="We have gathered 9 of our Best Whiteboard Videos for you to have a look at. We will use our years of experience from creating 1000s of videos for firms around the globe to assist you achieve your goals. Get in touch with us now we would love to gain your lasting video business.">
-    <meta name="Keywords" content="Best Whiteboard Videos, Best Animated Video,Best Custom Video,Best Custom Animated Video,Best Typography,Best Animation,Best Video Production,Best Whiteboard Animation,Best Explainer Videos,Best Blackboard Video,Best Drawing Animation,Best Doodle Video,Best Sketch Video,Best Chalkboard Video,Best Custom Animation,Best Video Presentation,Best Video,Best Commercial,Best Explainer Video,Best Professional,Best YouTube,Best Website Video,Best Whiteboard Video,Best Doodle Animation,Best Web Video">
+    <meta name="description" content="Here are the top whiteboard video examples we have for you. These custom whiteboard videos, incorporate typography along with animation and professional voice-overs. Your video will will clarify and showcase your message with an effective and fascinating custom video. ">
+    <meta name="Keywords" content="Best Blackboard Video,Best Custom Animation,Best Custom Animated Video,Best Doodle Video,Best Explainer Video,Best Video,Best Sketch Video,Best Custom Video,Best Typography,Best Whiteboard Animation,Best Chalkboard Video,Best Whiteboard Video,Best Explainer Videos,Best Drawing Animation,Best Website Video,Best Whiteboard Videos,Best Animated Video,Best Web Video,Best YouTube,Best Animation,Best Doodle Animation,Best Video Production">
     <meta name="robots" CONTENT="index, follow">
-    <title>Best Whiteboard Videos</title>
+    <title>Whiteboard Videos|Animation</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
     <link rel="stylesheet" type="text/css" href="../lightbox/js/lightbox/themes/default/jquery.lightbox.css"/>
+    <!--[if IE 6]>
+  <link rel="stylesheet" type="text/css" href="js/lightbox/themes/default/jquery.lightbox.ie6.css" />
+  <![endif]-->
     <link rel="stylesheet" type="text/css" href="../css/style.css"/>
     <link href="../css/fluid.css" rel="stylesheet" type="text/css"/>
     <script src="https://use.fontawesome.com/477bc21f61.js"></script>
@@ -34,9 +37,7 @@
 <section class="alert alert-info">
     <?php include("../includes/whiteboard_content.php"); ?>
 </section>
-    <?php include("../social-media/index.php"); ?>
     <?php include("../includes/callNow.php"); ?>
-    <?php include("../social-media/index.php"); ?>
     <?php include("../includes/footer.php"); ?>
     <script type="text/javascript" src="../lightbox/js/lightbox/jquery.lightbox.min_v2.js"></script>
     <!-- // <script type="text/javascript" src="src/jquery.lightbox.js"></script>   -->
