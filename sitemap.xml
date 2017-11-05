@@ -12,6 +12,11 @@
   <priority>1.00</priority>
 </url>
 <url>
+  <loc>http://www.whiteboard.video/Explainer/</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.90</priority>
+</url>
+<url>
   <loc>http://www.whiteboard.video/Best_Whiteboard_Videos/</loc>
   <changefreq>weekly</changefreq>
   <priority>0.90</priority>
