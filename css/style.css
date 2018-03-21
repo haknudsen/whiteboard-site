@@ -12,11 +12,13 @@ img { margin: 0 auto}
 input, textarea, select { outline: none; resize: none }
 .navbar { margin-bottom: 0;border-bottom: 2px solid}
 .thin{font-weight: 300}
+.heavy{font-weight: 900}
 .huge{font-size: 10rem;font-weight: 500}
+.large{font-size: 4rem}
 .header { height: 160px; width: 100% }
-.navbar-brand { float: left; margin-top: 15px; font-size: 6rem;width: 100%;font-weight: 700 }
+.navbar-brand { float: left; margin-top: 15px; font-size: 5rem;width: 100%;font-weight: 700 }
 .navbar-brand a { display: block; text-decoration: none;color: #000}
-.header-right { width: 58%; float: right;margin-right: 20px }
+.header-right { width: 50%; float: right;margin-right: 20px }
 .header-nav { text-align: right; font-size: 4rem; color: #424e5f; padding-top: 8px }
 .header-nav a { margin: 0 2px; color: #424e5f }
 .header-phone a{ font-size: 6rem,; color: #000; font-weight: 400; line-height: 1em; text-align: right }
@@ -25,11 +27,11 @@ input, textarea, select { outline: none; resize: none }
 }
 .banner h1{color: white;font-size: 6rem;font-family: "swister",sans-serif;font-style: normal;font-weight: 700;}
 .banner-video { margin: 35px auto 0 }
-.banner-text { font-size: 6rem; color: #fff; line-height: 34px; letter-spacing: -.03em; padding-top: 10px; text-align: center }
+.banner-text { font-size: 6rem; color: #fff; line-height: 6.5rem; letter-spacing: -.03em; padding-top: 10px; text-align: center }
 .jumbotron .banner-text{color: #000}
 .formbox { background-color: #fff; border-radius: 14px; padding: 10px }
 .get-a-quote { max-width: 600px; margin: 0 auto; border: 1px solid #404040; background-color: #FFF; padding: 10px 20px; border-radius: 12px }
-.quote { font-size: 50px; font-weight: 100; text-align: center; color: #FFF }
+.quote { font-size: 50px; font-weight: 100; text-align: center; color: #222 }
 .get-a-quote input, .get-a-quote textarea { margin: 5px auto; padding: 4px; border: 1px inset #FFF; line-height: 3em; background-color: #D8E1E9; font-size: 2rem; color: #565555; font-weight: 700; outline: #636161 solid thin }
 .form-group { margin-bottom: 0 }
 .i-need-video { background: url(../images/i-need-video.png)!important; width: 378px!important; height: 75px!important; margin: 0!important; padding: 0!important; margin-left: -26px!important; margin-top: 0!important; cursor: pointer }
@@ -84,6 +86,7 @@ color: #000!important; text-shadow: 0 -1px 0 rgba(255,255,255,0.46) }
 .text-bold{font-weight: 700}
 .text-example{margin: 5px auto 20px;text-align: center}
 .alert-dark{background-color: #F5F5F5;border-color: #7F7F7F;color:black}
+.alert-grey{background-color: #DDDDDD;border-color: #474747;color:#121212}
 .white{color: white}
 blockquote{font-size:3rem}
 .black, .text-info{color: #000000}
@@ -134,3 +137,13 @@ blockquote{font-size:3rem}
 .ayoshare .fa-bufferapp { background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1MAAA6mAAADqYAAAXb5JfxUYAAAHiSURBVHja7NhPiE5RGMfx5yWzUTQbFhYkkw2pKSVKlNhgIxaS1GiKsGJjg4UUCwtTlI2sJH82U0KNshEJKYVJIgtqmjdiUkwfm6Nu1zXjfd/7vkbur07de89zzvl2zv0959xbQ0xlTYsprgqwAqwAK8B/CHBbRNyLiOGIOBoRs0vpFa2WnXjsV33GCcxppf9WwHbjpcn1DaexoBOANezHW83pHBa1C/AUxpWjB+j7k3EbMcmniBgtyVAjETHWLpPswLMmZu1rM6ZpxSRb0lJNplEcwaxOuXhJ7n4z7hSAvcchzMjELm0UtBGwPXiSBn+OXbn6dbiJRziQq1uOa6ntGM5iQ9mA5wtm6RX2TtBmLW4VtHs9Sbuml3gujuNLbsB3OIiuFLcRQwVgV7CqEyaZiWOo5wA+4k0B2GX0dsok2Ze+Kxnhw28cfAGLM/HT2wm4Jg1YxyBW5Or3YRgjOIOFmbrulAPr6WDRV5ANWga8XjBDg1hdsF//vJ6HkylJZzWOw+1Y4pUJKq8hrM/EzcdAQdwL9HfCJL24VADwELcLnj/F9k6fBwPLcHGCbe4+tv6tA2u29KRE/j2B3cWmMvqulfjzqCci+iOiOyKuRsSNMjotE7D67KwAK8AKsAL8HwF/DAC3lzjL9tbjTwAAAABJRU5ErkJggg=="); /* Bufferapp Logo */ background-size: cover; width: 32px; height: 32px; margin: 3px 0 0 0; padding: unset; }
 .ayoshare .fa-bbm { background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1MAAA6mAAADqYAAAXb5JfxUYAAANJSURBVHja7JY9iF1FFMf/Z87M3K/dfb5lu6BCwEoUGwsLKxtFAkEELSwtVoSATVq/GgsLEcEuEFKkMYEQxaCIWAQMpFQERUQQlvWDt+t9b9+983GOxXvPWLi7vIchIHuaGbjM/O6c8/+fGVJV3IswuEdxAj4B37Wwh3347dffYdhUG4P1jw1xDaAFgQAACwfSfLzjSAWwliQGmeoZp7a1A7scuG7qF4vCvxZivNV1k3POFRDJMx4ZAApVBYhAIKgKiAxyiigr/65vypshxPcscOHf9qcjGshnOcupg4ODh0GEGBNyCmBmGMNQFeScwcxgtjDWQXIGQZFTwtrG+m1m3iXg2WVrzERIbD1UFTlFDIebP2xubiqzecL74vmtrS1tmuZGzgnWGMTQAwB8UYCATEdk9CiwqgJ96CGisM4h5/RpjOm6qv4hIvsp5c9jipfZ2geLwl+qquqVlDJUFUREq6qaAMCQmdUPOA1AY4pXc5bvmfnRlNLXXRcuWuYXiPBSURSvqspCbbSSqu/AFSoKX/gni6I4JyK/9F1/ua6rdwDYkMIXIvL+ZHJwfTqdfue9Azu3up0WIapgZuScr7Tt+KOU0gREW+PJ5JmU8u0saW/zvuEBEVUi+WxK+Zo1Bsdk+jjwTPI6k/9YVJGyYL2pt8uqfDtn+aZt20dSSh+IyLjvw1dVVcJai7lbaBUwATAqAucdoIKUMtgAfQg3RfFGzukGiBBCOB9jBDOjKAos5kSkS4ur7/tviWjLWfu4+cd/V2UJEL7s+umbCr3lLAMAnHOoqhIhREyn3WOqeqrv+x8PPdVhDWRnZwdlWT49HA4viMiVth2ft9Y+1TT1NoCdxbrZqAAIRCSqClV9ruv6l1OSa4PB2nLg3d1dqALO+wcGG+ufxJg+dN6/NRrtv26I1qw1NPfr32pQFfbeUdd1l8jYn70vsNaUy9XYuVnHYmPuN8ZUzPZsP20fWq8wGv3ZYTLJMPMaLOA5Z9T1DMTGrHYtqipEBFVdbUPR7O3tn/HejMqmxsZGBSKCtQxred6vZ3Nj+LjecfSJs2QQEUTkp1G7f1qB3hABkFleie7OfcyGQER1COGqqEyNIfyXL2E6eVefgP934L8GAFPbrYEFvuxUAAAAAElFTkSuQmCC"); /* BBM Logo */ background-size: cover; width: 32px; height: 32px; margin: 3px 0 0 0; padding: unset; }
 .ayoshare .fa-flipboard { background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEIAAABCCAYAAADjVADoAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1MAAA6mAAADqYAAAXb5JfxUYAAADWSURBVHja7NsxDoIwFAbgYhw4goOcgEM4cAjvy+AtYJGhoyOJQ12YHMDEJlb9/pWmTb7kvbw0pUopBQlhhwAECBAgQIAAAQIECBAgQIAAAQIECBAgyss+52bzPF+31tyGYcxx1qFtT8VCLDm++f2V9EpDjwABAgSIH5kjMqX/C4h7jFtLYtN1Z6WhR4AAAQIECAPVU6YQwqVEiCrnO8vlhmrt4mWq67pRGnoECBAgQIAwUK0MTV+Xyo8rSgMECBAgQIAAAQIECBAgQIAA8Zk8AAAA//8DAIUmH3yIYUyXAAAAAElFTkSuQmCC"); /* Flipboard Logo */ background-size: cover; width: 32px; height: 32px; margin: 3px 0 0 0; padding: unset; }
+.max-1280{max-width:1280px;max-height:720px;margin:auto}
+.example-title{font-size:3rem;line-height:3rem;text-align:center;margin:0 auto 2rem}
+.jumbo-header{width:50%;margin:0 auto;font-size:3.3rem;line-height:3.5rem;text-align:center}
+.jumbo-header a {text-decoration:underline}
+.jumbo-header a:hover {text-decoration:none}
+.jumbo-header::first-letter {	font-size: 4rem}
+.example-text{text-align:center;margin:0 0 1rem;font-weight:700}
+.fifty{width:50%}
+.pad-1{padding:1rem}
+.dropdown-menu{font-size:2rem}

@@ -7,7 +7,7 @@
 			</div>
 		</div>
 		<div class="col-md-8">
-			<h2 class="text-center">Why are we the #1 Video Production Company</h2>
+			<h2 class="text-center">Why are we the #1 <i class="highlight">Video Production</i> Company</h2>
 			<blockquote class="testimonials">
 				<p id="quoteBlock">Our leads have increased by 500%. Literally 5 times the what we were getting before on a daily basis. Consistent, high quality leads. Thank you for creating videos that get our web visitors to convert to actionable leads.</p>
 				<div id="name" class="caption">Brian Azouz</div>

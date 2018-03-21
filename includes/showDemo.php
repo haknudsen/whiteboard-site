@@ -35,7 +35,7 @@ if ( $result->num_rows > 0 ) {
         echo PHP_EOL;
         echo '</div>';
         echo PHP_EOL;
-        echo '<h4 class="text-center">' . $video . '</a></h4>';
+        echo '<div class="example-title">' . $video . '</a></div>';
         echo PHP_EOL;
         echo '</div>';
         echo PHP_EOL;

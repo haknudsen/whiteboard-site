@@ -1,5 +1,5 @@
 <div class="container text-center">
-    <div class="text-center text-capitalize">Please Share Our Top Whiteboard Videos</div>
+    <div class="text-center text-capitalize">Please Share Animated <strong>Explainer Videos</strong></div>
     <div class="center-block">
         <div id="unik" data-ayoshare="http://bachors.github.io/jQuery-Awesome-Sosmed-Share-Button/"></div>
     </div>

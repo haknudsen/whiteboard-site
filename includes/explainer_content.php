@@ -9,14 +9,12 @@ if ( $result->num_rows > 0 ) {
         $content = $row[ "content" ];
         $spintax = new Spintax();
         $spun = $spintax->process( $content );
-        $alt = $row[ "alt" ];
         $spintax = new Spintax();
-        $spunTitle = $spintax->process( $title );
-    echo '<h2 class="text-center">Top Whiteboard Videos</h2>';
-    echo PHP_EOL;
+        $title = $spintax->process( $title );
+        $alt = $row[ "alt" ];
         echo( '<div class="container">' );
         echo PHP_EOL;
-        echo('<h3 class="text-center">' . $spunTitle . '</h3>');
+        echo('<h3 class="text-center">' .$title . '</h3>');
         echo PHP_EOL;
         echo( '<div class="text">' );
         echo PHP_EOL;
@@ -30,19 +28,5 @@ if ( $result->num_rows > 0 ) {
     echo "0 results";
 }
 echo PHP_EOL;
-class Spintax {
-    public
-    function process( $text ) {
-        return preg_replace_callback( '/\{(((?>[^\{\}]+)|(?R))*)\}/x', array(
-            $this,
-            'replace'
-        ), $text );
-    }
-    public
-    function replace( $text ) {
-        $text = $this->process( $text[ 1 ] );
-        $parts = explode( '|', $text );
-        return $parts[ array_rand( $parts ) ];
-    }
-}
+
 ?>

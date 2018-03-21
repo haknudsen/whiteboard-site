@@ -2,7 +2,7 @@
     <div class="footer">
         ©
         <?php echo date("Y")?>, <a href="http://websitetalkingheads.com" target="_blank">TalkingHeads.com</a>. All Rights Reserved.
-        <h3 class="footer-title"><a href="http://talkingheads.com/affiliate/">Powered by <span class="blue">Talking</span> Heads<sup class="tm-small">&#174;</sup></a></h3>
+        <div class="footer-title"><a href="http://talkingheads.com/affiliate/">Powered by <span class="blue">Talking</span> Heads<sup class="tm-small">&#174;</sup></a></div>
     </div>
 </footer>
 <!-- Google Code for Previous Visitors --> 

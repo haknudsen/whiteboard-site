@@ -5,10 +5,10 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="We are experts in effective video production designed for the modern digital age. Our animated videos deliver your message clearly to your current target audiences. Before we start, We consult with you. We find out WHAT you do, HOW you do it, and WHY you do it that way.">
+    <meta name="description" content="We are experts in effective Whiteboard Animation Videos designed for the modern digital age. Our animated videos deliver your message clearly to your current target audiences. Before we start, We consult with you. We find out WHAT you do, HOW you do it, and WHY you do it that way.">
     <meta name="Keywords" content="Animated Video,Custom Video,Custom Animated Video,Typography,Animation,Video Production,Whiteboard Animation,Explainer Videos,Blackboard Video,Drawing Animation,Doodle Video,Sketch Video,Chalkboard Video,Custom Animation,Video Presentation,Video,Commercial,Explainer Video,Professional,YouTube,Website Video,Whiteboard Video,Doodle Animation,Web Video">
     <meta name="robots" CONTENT="index, follow">
-    <title>Whiteboard Videos|Animation</title>
+    <title>Whiteboard Animation Videos</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
@@ -20,12 +20,13 @@
 <body>
     <?php include("../includes/header.php"); ?>
     <section class="jumbotron">
+		<h1 class="text-center"><strong>Whiteboard Animation</strong> <span class="heavy">Videos</span></h1>
         <div class="row banner-video">
             <div class="col-lg-8">
                 <div class="embed-responsive embed-responsive-16by9">
                     <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/jZEI_x0akE4?rel=0&autohide=2&showinfo=0" allowfullscreen></iframe>
                 </div>
-                <div class="banner-text">Talking Heads<sup>&reg;</sup> can explain your product, service or procedure in an Animated Explainer Video! Our Animated Explainer Videos powerfully expain things step-by-step, and it keep your viewers' attention!</div>
+                <div class="banner-text">Whiteboard.Video<sup>&reg;</sup> can explain your product, service or procedure in an Whiteboard Animation Video! Our Animated Videos powerfully expain things step-by-step, and it keep your viewers' attention!</div>
             </div>
             <div class="col-lg-4 contact">
                 <?php include("../forms/contact.php"); ?>
@@ -33,6 +34,7 @@
             </div>
         </div>
     </section>
+	<h2></h2>
     <?php 
     $table = "animation";
     $columns = 4;
@@ -40,19 +42,21 @@
     include("../includes/showDemo.php"); 
     ?>
     <section class="container">
-        <a href="http://www.websitetalkingheads.com/mrss/animation.rss"><img class="img img-responsive m-25" alt="Talking Heads Animation RSS Feed"  src="http://www.websitetalkingheads.com/mrss/images/Talking-Heads-RSS-Feed.png" title="Talking Heads Animation RSS Feed"></a>
+        <a href="http://www.websitetalkingheads.com/mrss/animation.rss"><img class="img img-responsive m-25" alt="Whiteboard Animation RSS Feed"  src="http://www.websitetalkingheads.com/mrss/images/Talking-Heads-RSS-Feed.png" title="Whiteboard Animation RSS Feed"></a>
     </section>
     <section class="examples">
-        <div class="banner-bottom-text">Explanation Videos, Whiteboard Animation Videos, and Spokesperson Video.
+		<div class="container">
+        <div class="banner-bottom-text"><i>Explainer Videos</i>, Whiteboard Animation Videos, and <i>Cartoons</i>.
             <blockquote class="content-text">We know all companies are not alike, so,we work with you to create the best solution for your company. Your company offers a solution to your clients, but sometimes that solution or product needs some explaining. That's where we come in. We create high impact, exciting VIDEOS that explain your product, service, software or business. </blockquote>
         </div>
+		</div>
 
     </section>
     <?php include("includes/callNow.php"); ?>
     <section class="alert alert-dark">
         <div class="container">
             <div class="row best">
-                <h2>Custom Animated Video</h2>
+                <h2>Custom Whiteboard Animation Video</h2>
                 <h3 class="italic text-center">Capture your visitors' awareness while increasing your income.</h3>
                 <div class="col-md-4">
 

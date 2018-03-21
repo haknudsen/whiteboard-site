@@ -20,6 +20,8 @@ $alt = array("Whiteboard","Whiteboard Video","Whiteboard Animation","Explainer V
 $link = '" href="https://www.youtube.com/watch?v=';
 $class = '&rel=0&autoplay=1&hd=1" class="lightbox">';
 if ( $result->num_rows > 0 ) {
+    echo '<h2 class="text-center">Top Whiteboard Videos</h2>';
+    echo PHP_EOL;
     echo '<div class="example-column">';
     echo PHP_EOL;
     $x = 1;
@@ -32,7 +34,7 @@ if ( $result->num_rows > 0 ) {
         echo PHP_EOL;
         echo '<a title="' . $video . $link . $target .  $class . '<img src="https://img.youtube.com/vi/' . $target . '/maxresdefault.jpg" class="img img-responsive box" id="' . $id . '" alt="' . $id . ' Example' . $example->name . ' " ></a>';
         echo PHP_EOL;
-        echo '<h3 class="example-text"><a title="' . $id . $link . $target . $class . '#' . $x . " " . $video . '</a></h3>';
+        echo '<div class="example-text"><a title="' . $id . $link . $target . $class . '#' . $x . " " . $video . '</a></div>';
         echo PHP_EOL;
         echo '</div>';
         echo PHP_EOL;
